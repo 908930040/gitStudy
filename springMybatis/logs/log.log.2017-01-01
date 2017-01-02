@@ -1,0 +1,36 @@
+2017-01-01 09:39:05  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@b3fc9e: startup date [Sun Jan 01 09:39:05 CST 2017]; root of context hierarchy
+2017-01-01 09:39:05  [ main:321 ] - [ INFO ]  Loading XML bean definitions from class path resource [beans.xml]
+2017-01-01 09:39:07  [ main:2189 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-01-01 09:39:07  [ main:2616 ] - [ WARN ]  Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [org.apache.commons.dbcp2.BasicDataSource] for bean with name 'dataSource' defined in class path resource [beans.xml]; nested exception is java.lang.ClassNotFoundException: org.apache.commons.dbcp2.BasicDataSource
+2017-01-01 09:41:54  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4038d0: startup date [Sun Jan 01 09:41:54 CST 2017]; root of context hierarchy
+2017-01-01 09:41:54  [ main:150 ] - [ INFO ]  Loading XML bean definitions from class path resource [beans.xml]
+2017-01-01 09:41:55  [ main:1062 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-01-01 09:53:06  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2d56bf: startup date [Sun Jan 01 09:53:06 CST 2017]; root of context hierarchy
+2017-01-01 09:53:06  [ main:137 ] - [ INFO ]  Loading XML bean definitions from class path resource [beans.xml]
+2017-01-01 09:53:07  [ main:990 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-01-01 10:15:53  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4038d0: startup date [Sun Jan 01 10:15:53 CST 2017]; root of context hierarchy
+2017-01-01 10:15:53  [ main:160 ] - [ INFO ]  Loading XML bean definitions from class path resource [beans.xml]
+2017-01-01 10:15:54  [ main:1140 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-01-01 10:22:08  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4038d0: startup date [Sun Jan 01 10:22:08 CST 2017]; root of context hierarchy
+2017-01-01 10:22:08  [ main:123 ] - [ INFO ]  Loading XML bean definitions from class path resource [beans.xml]
+2017-01-01 10:22:09  [ main:959 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-01-01 10:27:12  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2d56bf: startup date [Sun Jan 01 10:27:12 CST 2017]; root of context hierarchy
+2017-01-01 10:27:12  [ main:141 ] - [ INFO ]  Loading XML bean definitions from class path resource [beans.xml]
+2017-01-01 10:27:13  [ main:990 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-01-01 10:40:14  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@4038d0: startup date [Sun Jan 01 10:40:14 CST 2017]; root of context hierarchy
+2017-01-01 10:40:14  [ main:147 ] - [ INFO ]  Loading XML bean definitions from class path resource [beans.xml]
+2017-01-01 10:40:15  [ main:1160 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-01-01 23:48:27  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1591d15: startup date [Sun Jan 01 23:48:27 CST 2017]; root of context hierarchy
+2017-01-01 23:48:27  [ main:114 ] - [ INFO ]  Loading XML bean definitions from class path resource [beans.xml]
+2017-01-01 23:48:28  [ main:1097 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-01-01 23:48:29  [ main:2627 ] - [ DEBUG ]  ==>  Preparing: select * from person 
+2017-01-01 23:48:29  [ main:2674 ] - [ DEBUG ]  ==> Parameters: 
+2017-01-01 23:48:29  [ main:2739 ] - [ DEBUG ]  <==      Total: 2
+2017-01-01 23:50:45  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1591d15: startup date [Sun Jan 01 23:50:45 CST 2017]; root of context hierarchy
+2017-01-01 23:50:45  [ main:67 ] - [ INFO ]  Loading XML bean definitions from class path resource [beans.xml]
+2017-01-01 23:50:46  [ main:632 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-01-01 23:50:46  [ main:1173 ] - [ DEBUG ]  Cache Hit Ratio [com.yc.mapper.PersonMapper]: 0.0
+2017-01-01 23:50:47  [ main:1628 ] - [ DEBUG ]  ==>  Preparing: select * from person 
+2017-01-01 23:50:47  [ main:1674 ] - [ DEBUG ]  ==> Parameters: 
+2017-01-01 23:50:47  [ main:1715 ] - [ DEBUG ]  <==      Total: 2
+2017-01-01 23:50:47  [ main:1721 ] - [ DEBUG ]  Cache Hit Ratio [com.yc.mapper.PersonMapper]: 0.5

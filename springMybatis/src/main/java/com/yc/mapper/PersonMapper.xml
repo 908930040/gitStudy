@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+ "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!-- sql映射文件 作用是将java类与数据库的表通过sql映射文件关联起来 -->
+
+<!-- namespace表示访问这个mapper文件的路径，一般与真实路径相同 -->
+
+<mapper namespace="com.yc.mapper.PersonMapper">
+	<!-- 使用二级缓存 -->
+	<cache eviction="FIFO" flushInterval="60000" size="512" readOnly="true"></cache>
+	<!-- <cache type="com.yc.dao.redis.cache.RedisCache"></cache> -->
+	
+	
+	<select id="findAll" resultType="Person">
+		select * from person
+	</select>
+	
+	
+	
+</mapper>

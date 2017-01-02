@@ -1,0 +1,13 @@
+2017-01-02 00:05:06  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1591d15: startup date [Mon Jan 02 00:05:06 CST 2017]; root of context hierarchy
+2017-01-02 00:05:06  [ main:71 ] - [ INFO ]  Loading XML bean definitions from class path resource [beans.xml]
+2017-01-02 00:05:07  [ main:637 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-01-02 00:06:43  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1591d15: startup date [Mon Jan 02 00:06:43 CST 2017]; root of context hierarchy
+2017-01-02 00:06:43  [ main:91 ] - [ INFO ]  Loading XML bean definitions from class path resource [beans.xml]
+2017-01-02 00:06:43  [ main:713 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-01-02 00:10:21  [ main:0 ] - [ INFO ]  Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@1591d15: startup date [Mon Jan 02 00:10:21 CST 2017]; root of context hierarchy
+2017-01-02 00:10:21  [ main:66 ] - [ INFO ]  Loading XML bean definitions from class path resource [beans.xml]
+2017-01-02 00:10:22  [ main:645 ] - [ INFO ]  Loading properties file from class path resource [db.properties]
+2017-01-02 00:10:23  [ main:1194 ] - [ DEBUG ]  Cache Hit Ratio [com.yc.mapper.PersonMapper]: 0.0
+2017-01-02 00:10:23  [ main:1717 ] - [ DEBUG ]  ==>  Preparing: select * from person 
+2017-01-02 00:10:23  [ main:1770 ] - [ DEBUG ]  ==> Parameters: 
+2017-01-02 00:10:23  [ main:1799 ] - [ DEBUG ]  <==      Total: 2
